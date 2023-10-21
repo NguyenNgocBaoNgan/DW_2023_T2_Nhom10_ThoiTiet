@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="icon" href="css/weather_web_icon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-2 left_content pt-10">
+                <ul class="province_list">
+                    <li>
+                        <i class="fa fa-map-marker"></i>
+                        <a href="#" class="weather_city">
+                            TP. Hồ Chí Minh
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fa fa-map-marker"></i>
+                        <a href="#" class="weather_city">
+                            Thừa Thiên Huế
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fa fa-map-marker"></i>
+                        <a href="#" class="weather_city">
+                            Đồng Nai
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fa fa-map-marker"></i>
+                        <a href="#" class="weather_city">
+                            Vũng Tàu
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6 center_content">
+                <div class="top_component">
+                    <div class="date">
+                        <span class="month_and_year">Tháng 10/2023</span> <br>
+                        <span class="full_date">Thứ bảy, 20/10/2023</span>
+                    </div>
+                    <div class="search">
+                        <i class="fa fa-search"></i>
+                        <input type="text" placeholder="Search location">
+                        <i class="fa fa-map-marker"></i>
+                    </div>
+                </div>
+                <div class="quick_access row">
+                    <div class="city_temp col-md-3">
+                        <span class="temp">12&deg;C</span>
+                        <span class="city">Hồ Chí Minh,</span>
+                        <span class="city">Việt Nam</span>
+                    </div>
+                    <div class="city_temp col-md-3">
+                        <span class="temp">12&deg;C</span>
+                        <span class="city">Hồ Chí Minh,</span>
+                        <span class="city">Việt Nam</span>
+                    </div>
+                    <div class="city_temp col-md-3">
+                        <span class="temp">12&deg;C</span>
+                        <span class="city">Hồ Chí Minh,</span>
+                        <span class="city">Việt Nam</span>
+                    </div>
+                </div>
+                <h5 class="over_view_text">Overview</h5>
+                <div class="over_view_div row">
+                    <div class="attibute_popular col-md-5">
+                        <span class="attribute_txt">
+                            UV Index
+                        </span>
+                        <i class="sunny fa fa-user"></i>
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                          </div>
+                    </div>
+                    <div class="attibute_popular col-md-5">
+                        <span class="attribute_txt">
+                            UV Index
+                        </span>
+                        <i class="sunny fa fa-user"></i>
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                          </div>
+                    </div>
+                </div>
+                <h5 class="weekly_temp">Weekly Temperature</h5>
+            </div>
+            <div class="col-md-4 right_content">
+                <ul class="province_list">
+                <li>Thành Phố Hồ Chí Minh</li>
+                <li>Đồng Nai</li>
+                <li>Thành Phố Đà Nẵng</li>
+                <li>Xem thêm</li>
+            </ul>
+        </div>
+        </div>
+        
+    </div>
+</body>
+</html>

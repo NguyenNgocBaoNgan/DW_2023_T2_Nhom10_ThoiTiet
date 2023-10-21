@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	  font-family: 'Roboto', sans-serif;
+}
+.container{
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+/* left content */
+.left_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eef2f3;
+    height: 600px;
+}
+.province_list{
+    list-style: none;
+    padding: 6px;
+}
+.province_list li{
+    padding: 6px;
+    border-radius: 5px;
+}
+.province_list li:hover{
+   
+    background-color: #fff;
+}
+.province_list li a{
+ text-decoration: none;
+ color: #000;
+}
+.center_content{
+padding-top: 50px;
+}
+.top_component{
+    display: flex;
+    justify-content: space-between;
+}
+.quick_access{
+    display: flex;
+    font-size: 11px;
+}
+.city_temp{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #eef2f3;
+    margin: 8px;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.temp{
+    font-size: 38px;
+}
+.over_view_div{
+   
+}
+.attibute_popular{
+    background-color: #eef2f3;
+    border-radius: 10px;
+    padding: 52px 64px;
+    margin: 8px;
+}
+.progress-bar {
+    width: 200px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    width: 50%;
+    background-color: #007bff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+/* right content */
+.right_content{
+    background-color: #eef2f3;
+}
