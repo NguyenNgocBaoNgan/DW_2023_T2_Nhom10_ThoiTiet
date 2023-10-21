@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-	  font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .container{
     border-radius: 10px;
     overflow: hidden;
-   
+
 }
 /* left content */
 .left_content{
@@ -26,15 +26,15 @@
     border-radius: 5px;
 }
 .province_list li:hover{
-   
+
     background-color: #fff;
 }
 .province_list li a{
- text-decoration: none;
- color: #000;
+    text-decoration: none;
+    color: #000;
 }
 .center_content{
-padding-top: 50px;
+    padding-top: 50px;
 }
 .top_component{
     display: flex;
@@ -57,7 +57,7 @@ padding-top: 50px;
     font-size: 38px;
 }
 .over_view_div{
-   
+
 }
 .attibute_popular{
     background-color: #eef2f3;
@@ -65,14 +65,14 @@ padding-top: 50px;
     padding: 52px 64px;
     margin: 8px;
 }
-.progress-bar {
+/* .progress-bar {
     width: 200px;
     height: 20px;
     background-color: #eee;
     border-radius: 10px;
     overflow: hidden;
   }
-  
+
   .progress {
     height: 100%;
     width: 50%;
@@ -80,8 +80,22 @@ padding-top: 50px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     overflow: hidden;
-  }
+  } */
 /* right content */
 .right_content{
     background-color: #eef2f3;
+}
+
+
+/* độ C */
+.temperature {
+    font-size: 34px;
+}
+
+.value {
+    color: #000000; /* Màu sắc cho giá trị nhiệt độ */
+}
+
+.unit {
+    color: #bfbfbf; /* Màu sắc cho đơn vị độ C */
 }
